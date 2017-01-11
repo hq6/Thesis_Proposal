@@ -81,14 +81,16 @@ The Linux Scheduler: a Decade of Wasted Cores
  - Kernel module for core isolation in progress
 
 #HSLIDE
-
 ## Initial Results
-### RAMCloud machines (Nahalem Lynnfield, Xeon X3470 @ 2.93 Ghz, 4-Core with Hyperthreading Disabled)
+#### RAMCloud machines (Nahalem Lynnfield, Xeon X3470 @ 2.93 Ghz, 4-Core with Hyperthreading Disabled)
  - 60 ns yield
  - 160 ns cross-core thread creation
  - 180 ns cross-core condition variable wakeup
 
-### CloudLab c220g1 (2 Haswell, Intel E5-2630 v3 @ 2.40 GHz, 8-core CPUs)
+#HSLIDE
+## Initial Results
+
+#### CloudLab c220g1 (2 Haswell, Intel E5-2630 v3 @ 2.40 GHz, 8-core CPUs)
  - 120 ns yield
  - 470 ns cross-core thread creation
  - 355 ns cross-core condition variable wakeup
