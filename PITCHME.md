@@ -60,7 +60,11 @@ The Linux Scheduler: a Decade of Wasted Cores
 #HSLIDE
 
 ## Hypothesis
-#### We can achieve high throughput, low latency, and efficient core utilization by allocating cores in the kernel and scheduling in userspace.
+### We can achieve high throughput, low latency, and efficient core utilization by allocating cores in the kernel and scheduling in userspace.
+
+#HSLIDE
+
+## Hypothesis
 
  - Scheduling preemptively in the kernel is inefficient because the kernel is
    not aware of application state.
