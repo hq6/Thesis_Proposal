@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   height="500"
+   width="500">
+  <defs
+     id="defs4">
+    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5025"
+       style="overflow:visible;">
+      <path
+         id="path5027"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#cccccc;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3983">
+      <stop
+         id="stop4001"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="0.74101365"
+         id="stop4003" />
+      <stop
+         id="stop3987"
+         offset="1"
+         style="stop-color:#b8b8b8;stop-opacity:1;" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4972" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4969" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4954" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4021" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4029">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="5"
+         in="SourceAlpha"
+         id="feGaussianBlur4031" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4033" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4035" />
+      <feMerge
+         id="feMerge4037">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4039" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4041" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4029-1">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="5"
+         in="SourceAlpha"
+         id="feGaussianBlur4031-7" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4033-4" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4035-0" />
+      <feMerge
+         id="feMerge4037-9">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4039-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4041-8" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4082">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="5"
+         in="SourceAlpha"
+         id="feGaussianBlur4084" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4086" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4088" />
+      <feMerge
+         id="feMerge4090">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4092" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4094" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4252">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="SourceAlpha"
+         id="feGaussianBlur4254" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4256" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4258" />
+      <feMerge
+         id="feMerge4260">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4262" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4264" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4266">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="SourceAlpha"
+         id="feGaussianBlur4268" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4270" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4272" />
+      <feMerge
+         id="feMerge4274">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4276" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4278" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4280">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="SourceAlpha"
+         id="feGaussianBlur4282" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4284" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4286" />
+      <feMerge
+         id="feMerge4288">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4290" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4292" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4294">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="SourceAlpha"
+         id="feGaussianBlur4296" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4298" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4300" />
+      <feMerge
+         id="feMerge4302">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4304" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4306" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4308">
+      <feGaussianBlur
+         stdDeviation="1.5"
+         result="result6"
+         id="feGaussianBlur4310" />
+      <feComposite
+         result="result8"
+         in="SourceGraphic"
+         operator="atop"
+         in2="result6"
+         id="feComposite4312" />
+      <feComposite
+         result="fbSourceGraphic"
+         operator="atop"
+         in="result8"
+         in2="SourceAlpha"
+         id="feComposite4314" />
+      <feColorMatrix
+         id="feColorMatrix4324"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="fbSourceGraphicAlpha"
+         id="feGaussianBlur4326" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4328" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4330" />
+      <feMerge
+         id="feMerge4332">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4334" />
+        <feMergeNode
+           in="fbSourceGraphic"
+           id="feMergeNode4336" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4316">
+      <feGaussianBlur
+         stdDeviation="1.5"
+         result="result6"
+         id="feGaussianBlur4318" />
+      <feComposite
+         result="result8"
+         in="SourceGraphic"
+         operator="atop"
+         in2="result6"
+         id="feComposite4320" />
+      <feComposite
+         result="fbSourceGraphic"
+         operator="atop"
+         in="result8"
+         in2="SourceAlpha"
+         id="feComposite4322" />
+      <feColorMatrix
+         id="feColorMatrix4338"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="4"
+         in="fbSourceGraphicAlpha"
+         id="feGaussianBlur4340" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4342" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4344" />
+      <feMerge
+         id="feMerge4346">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4348" />
+        <feMergeNode
+           in="fbSourceGraphic"
+           id="feMergeNode4350" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4408">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur4410" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4412" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4414" />
+      <feMerge
+         id="feMerge4416">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4418" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4420" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       id="filter4422">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur4424" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix4426" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset4428" />
+      <feMerge
+         id="feMerge4430">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode4432" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4434" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-0"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8255"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path8257" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8255-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path8257-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-10"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-3"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-0"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-06"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-81" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-22"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-82" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-71"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-4-4-71-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-1-84-1-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-3"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-3-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-3-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-5-3"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-5-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-5-3-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-5-9-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-7-0-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-9-0-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-3"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-50"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-38"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-38"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-38-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-9-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-8-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-9-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-38-6-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-9-7-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-8-7-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-9-8-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-38-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-9-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-8-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-9-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-5-4"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-7-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-1-85"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-0-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-3-9"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-5-72" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-4-4"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-9-54" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-9-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-1-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-5-2"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-0-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-0-82"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-1-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-9-6"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-0-28" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-9-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-3-19" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-0"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4006-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-85"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4009-54" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-552.36218)"
+     id="layer1">
+    <rect
+       ry="4.9999995"
+       rx="5"
+       y="742.36218"
+       x="110"
+       height="75"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5-5-1-19-7"
+       style="fill:#e1ffcd;fill-opacity:1;stroke:#000000;stroke-width:1.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="4.9999995"
+       rx="5.0000005"
+       y="742.36218"
+       x="245"
+       height="75"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5-5-1-19"
+       style="fill:#e1ffcd;fill-opacity:1;stroke:#000000;stroke-width:1.60000026;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="877.36218"
+       x="195"
+       height="19.999998"
+       width="15"
+       id="rect4533-4-7-1"
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-4"
+       y="907.77258"
+       x="79.699013"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="907.77258"
+         x="79.699013"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-4">sockets</tspan></text>
+    <rect
+       ry="4.9999995"
+       rx="5.0000005"
+       y="802.36218"
+       x="110"
+       height="55.000004"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5"
+       style="fill:#ffffb9;fill-opacity:1;stroke:#000000;stroke-width:1.60000038;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-40"
+       y="771.23083"
+       x="168.61288"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="771.23083"
+         x="168.61288"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-2">Application</tspan></text>
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-30-3"
+       y="850.13989"
+       x="168.21371"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan5017-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="850.13989"
+         x="168.21371">Arbiter Library</tspan></text>
+    <rect
+       ry="4.9999995"
+       rx="5"
+       y="812.36218"
+       x="245"
+       height="44.999996"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5-5"
+       style="fill:#ffffb9;fill-opacity:1;stroke:#000000;stroke-width:1.60000026;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-40-6"
+       y="771.23083"
+       x="302.91232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="771.23083"
+         x="302.91232"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-2-4">Application</tspan></text>
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-30-3-1"
+       y="850.13989"
+       x="302.51315"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan5017-9-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="850.13989"
+         x="302.51315">Arbiter Library</tspan></text>
+    <rect
+       ry="4.9999995"
+       rx="4.9999995"
+       y="742.36218"
+       x="380"
+       height="75"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5-5-1"
+       style="fill:#e1ffcd;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-40-6-6"
+       y="771.23083"
+       x="438.12411"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="771.23083"
+         x="438.12411"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-2-4-1">Application</tspan></text>
+    <path
+       id="path5318-6-7-6"
+       d="m 381,832.36218 90,0"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path5460"
+       d="m 139.99999,860.36663 0,55.44552"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5"
+       d="m 147,860.5912 0,54.99647"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9);marker-end:url(#Arrow1Mend-0)" />
+    <path
+       id="path5460-5-9"
+       d="m 153.99999,860.36663 0,55.44552"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9-0);marker-end:url(#Arrow1Mend-0-9)" />
+    <path
+       id="path5460-5-9-7"
+       d="m 160.99999,860.36663 0,55.44552"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9-0-9);marker-end:url(#Arrow1Mend-0-9-5)" />
+    <path
+       id="path5460-5-9-7-5"
+       d="m 168.00001,860.36448 0,55.38179"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000017;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9-0-9-3);marker-end:url(#Arrow1Mend-0-9-5-4)" />
+    <path
+       id="path5460-5-9-7-5-1"
+       d="m 175,860.5912 0,54.99647"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9-0-9-3-5);marker-end:url(#Arrow1Mend-0-9-5-4-1)" />
+    <path
+       id="path7708"
+       d="m 202.63635,857.36218 0,20"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path7708-3"
+       d="m 202.63635,897.36218 0,20"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       transform="matrix(1.0826844,0,0,1,-68.524873,25)"
+       id="g7875">
+      <rect
+         style="fill:#ffffb9;fill-opacity:1;stroke:#000000;stroke-width:1.53769124;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4977-1-8-8-8-2-8-6-5-5-1-4"
+         width="355.59763"
+         height="29.999998"
+         x="164.89096"
+         y="892.36218"
+         rx="4.6181512"
+         ry="4.9999995" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="334.78561"
+         y="913.94434"
+         id="text3791-7-2-1-2-1-7-2-2-60-88-4-8"><tspan
+           x="334.78561"
+           y="913.94434"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+           id="tspan4598-6">Core Arbiter</tspan></text>
+    </g>
+    <rect
+       y="877.36218"
+       x="320"
+       height="19.999998"
+       width="15"
+       id="rect4533-4-7-1-3"
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path5460-9"
+       d="m 265.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-0"
+       d="m 272.59349,860.5912 0,54.9965"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-6"
+       d="m 279.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-7-6"
+       d="m 286.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path7708-9"
+       d="m 328.22984,857.36218 0,20"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path5460-5-9-7-5-1-6"
+       d="m 314,860.5912 0,54.9965"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart-9-0-9-3-5-38);marker-end:url(#Arrow1Mend-0-9-5-4-1-8)" />
+    <rect
+       y="877.36218"
+       x="455"
+       height="20.000002"
+       width="15"
+       id="rect4533-4-7-1-7"
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path5460-4"
+       d="m 400.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-6"
+       d="m 407.59349,860.5912 0,54.9965"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-3"
+       d="m 414.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-7-2"
+       d="m 293.59348,860.36663 0,55.44547"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-7-5-3"
+       d="m 300.5935,860.36448 0,55.38182"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000017;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path5460-5-9-7-5-1-9"
+       d="m 307.59349,860.5912 0,54.9965"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)" />
+    <path
+       id="path7708-7"
+       d="m 462.38258,857.36218 0,20"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       id="path7708-3-2"
+       d="m 462.38258,897.36218 0,20.00002"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;text-align:center"
+       id="flowRoot10045"
+       xml:space="preserve"><flowRegion
+         id="flowRegion10047"><rect
+           y="230"
+           x="15"
+           height="80"
+           width="160"
+           id="rect10049" /></flowRegion><flowPara
+         id="flowPara10051" /></flowRoot>    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-4-1"
+       y="871.86615"
+       x="55.011383"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="871.86615"
+         x="55.011383"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-4-7">shared</tspan><tspan
+         id="tspan10545"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         y="886.86615"
+         x="55.011383">memory</tspan></text>
+    <path
+       id="path10547"
+       d="m 110.54175,902.49544 25.26965,0"
+       style="opacity:1;fill:#ffffb9;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:1.20000001, 1.20000001;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-0-9-5-4-6)" />
+    <path
+       id="path10551"
+       d="m 109.96391,872.36218 c 54.46025,0 32.63599,15 81.70914,15"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.19999993;stroke-miterlimit:4;stroke-dasharray:1.20000002, 1.20000002;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-7)" />
+    <path
+       id="path7708-3-4"
+       d="m 398.22984,817.36218 0,20.00002"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="4.9999995"
+       rx="4.9999995"
+       y="822.36218"
+       x="380"
+       height="35.000004"
+       width="115"
+       id="rect4977-1-8-8-8-2-8-6-5-5-1-1"
+       style="fill:#ffffb9;fill-opacity:1;stroke:#000000;stroke-width:1.60000026;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-30-3-1-4-4"
+       y="850.13989"
+       x="437.72495"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan5017-9-4-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="850.13989"
+         x="437.72495">Arbiter Library</tspan></text>
+    <rect
+       y="792.36218"
+       x="380"
+       height="39.999996"
+       width="115"
+       id="rect5007"
+       style="opacity:1;fill:#e1ffcd;fill-opacity:1;stroke:#000000;stroke-width:1.5999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-3-5-5"
+       y="810.71338"
+       x="437.55283"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="810.71338"
+         x="437.55283"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-7-9-5-4">Custom</tspan><tspan
+         id="tspan5015-8-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="825.71338"
+         x="437.55283">Thread Library</tspan></text>
+    <rect
+       y="792.36218"
+       x="245"
+       height="40.000004"
+       width="115"
+       id="rect5007-9"
+       style="opacity:1;fill:#e1ebff;fill-opacity:1;stroke:#000000;stroke-width:1.60000014;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-3-5"
+       y="810.23083"
+       x="302.68161"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="810.23083"
+         x="302.68161"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-7-9-5">Arachne</tspan><tspan
+         id="tspan5015-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="825.23083"
+         x="302.68161">Runtime</tspan></text>
+    <rect
+       y="792.36218"
+       x="110"
+       height="39.999996"
+       width="115"
+       id="rect5007-9-8"
+       style="opacity:1;fill:#e1ebff;fill-opacity:1;stroke:#000000;stroke-width:1.60000014;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3791-7-2-1-2-1-7-2-2-60-88-3-1-3"
+       y="810.23083"
+       x="168.38217"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:100%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="810.23083"
+         x="168.38217"
+         id="tspan3793-4-4-5-3-7-4-77-4-2-1-3-7-9">Arachne</tspan><tspan
+         id="tspan5015"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Microsoft Sans Serif';-inkscape-font-specification:'Microsoft Sans Serif';text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         y="825.23083"
+         x="168.38217">Runtime</tspan></text>
+    <path
+       id="path7708-3-47"
+       d="m 327.38258,897.36218 0,20"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

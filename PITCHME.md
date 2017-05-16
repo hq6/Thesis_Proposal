@@ -1,5 +1,5 @@
 # Arachne
-## Towards Core-Aware Scheduling
+## Core-Aware Thread Management
 #### Henry Qin Thesis Proposal
 
 #HSLIDE
@@ -7,6 +7,7 @@
 ### Outline
  - Problem Description & Background
  - Hypothesis
+ - Current Status
  - Initial Results
  - Additional Work
  - Related Work
@@ -16,69 +17,79 @@
 
 ## The Problem
 
-It is difficult to simultaneously achieve low latency, high throughput and high
-core utilization for datacenter applications.
-
-How have various applications attempted to deal with this problem?
+Hard to simultaneously achieve
+ - Low latency
+ - High throughput
+ - Efficient core utilization
 
 #HSLIDE
 
 ##  RAMCloud
-#### Low latency by polling
- - In the RAMCloud system, we achieve low latency by using kernel bypass and
-   then polling for responses to RPC's in userspace.  Technically, we have high
-   core utilization, although one might argue that the cores are not being used
-   for useful work.
- - Unfortunately, the poor use of cores limits thoughput.
+<!-- #### Low latency by polling wastes cores -->
+ - Polling for responses to RPC's wastes cores
+ - High cost of context switches
+
+<!-- TODO: Insert the diagram from poster long long ago   -->
 
 #HSLIDE
 
 ## Redis
-#### Low latency and high throughput with an event loop
- - Redis assumes that the network is the primary bottleneck and uses epoll in
-   an event loop to perform all operations.
- - Unfortunately, this limits Redis to a single core without
-   application-managed sharding.
+ - Single core event loop
+
+ - One core ==> high throughput and low latency
+ - Multiple cores ==> bad core utilization
 
 #HSLIDE
 
 ## Nginx
-#### Low latency and high throughput with multiple non-blocking event loops on multiple processes.
- - Nginx is statically configurable, but typically uses a fixed number of
-   processes equal to the number of cores, with each process doing non-blocking
-   polls for new connections and new requests on existing connections.
- - Unfortunately, having a fixed number of kernel threads effectively polling
-   implies that cores are wasted when load is not sufficiently high.
+<!-- #### Low latency and high throughput with multiple non-blocking event loops on multiple processes. -->
+ - *Statically* configurable number of processes
+ - Normal Configuration: Fixed number of processes equal to the number of cores
+<!-- TODO: Insert architecture diagram for Nginx, and voiceover why this is bad for utilization  -->
 
 #HSLIDE
 
-## Thread scheduling is not a solved problem.
-
-The Linux Scheduler: a Decade of Wasted Cores
- - Cores stay idle for seconds while ready threads wait to run.
+## Limitations on existing solutions
+ - Kernel scheduling
+    - Multi-us scheduling operations
+    - Lack of application state awareness
+ - M:N User Threads over Kernel Threads
+    - Kernel multiplexing of underlying kernel threads
+    - Blocking IO
+ - Event loop in kernel threads
+    - Programming model complexity: Manual stack ripping
+    - Scalability often limited to a single core
+    - Kernel multiplexing of underlying kernel threads
 
 #HSLIDE
 
 ## Hypothesis
-### We can achieve high throughput, low latency, and efficient core utilization by allocating cores in the kernel and scheduling in userspace.
+### We can achieve high throughput, low latency, and efficient core utilization by allocating cores system-wide and scheduling in each application.
+
+<!-- #HSLIDE -->
+<!--  -->
+<!-- ## Thread scheduling is not a solved problem. -->
+<!--  -->
+<!-- The Linux Scheduler: a Decade of Wasted Cores -->
+<!--  - Cores stay idle for seconds while ready threads wait to run. -->
 
 #HSLIDE
 
-## Hypothesis
-
- - Scheduling preemptively in the kernel is inefficient because the kernel is
-   not aware of application state.
- - Scheduling cooperatively in userspace is inefficient because userspace
-   schedulers sit on top of preemptable kernel threads.
-    - This is true independently of whether userspace scheduling presents an
-      event-based model or thread-based model.
+## Current Progress
+ - Thread runtime implemented as a C++ library
+    - Cache Conscious Design ==> thread creations in ~200 ns (6 cache operations)
+    - Core estimation ==> Control latencies and resource utilization under changing loads
+ - Core arbiter implemented as a setuid process
+    - Priority-based core allocation among applications
 
 #HSLIDE
 
-## Current Status
- - Highly efficient scheduler implemented in userspace
-    - github.com/PlatformLab/Arachne
- - Kernel module for core isolation in progress
+<!-- TODO: Add slides describing Arachne and the Core Arbiter. -->
+
+## Arachne Architecture
+
+![Architecture](assets/images/overview.svg)
+
 
 #HSLIDE
 ## Initial Results
@@ -154,6 +165,11 @@ The Linux Scheduler: a Decade of Wasted Cores
  - Extremely lightweight threads with initially small, growable stacks
  - Transparently spins up more kernel threads when current user threads block
    on system calls
+
+#HSLIDE
+
+## Conclusion
+    - github.com/PlatformLab/Arachne
 
 #HSLIDE
 
